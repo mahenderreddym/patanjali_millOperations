@@ -1,0 +1,123 @@
+// app global css in SCSS form
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    margin: 0px;
+}
+.title h4 {
+    margin:10px 10px 10px 10px;
+    padding: 0px;
+    border: 3px solid #26A69A;
+    border-radius: 5px;
+    background-color: #80ed99;
+    color: black;
+    font-size: 24px;
+
+}
+.dt-shift {
+    border: 2px solid black;
+    margin-right: 10px;
+}
+.line {
+    border: 1px solid black;
+}
+.date,.shift{
+    padding: 4px;
+    font-weight: 600;
+}
+
+.ster-form {
+    width:600px !important;
+}
+
+.ster-form ,
+.trblgFrm,
+.BlFrm ,
+.SrFm{
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.BlFrm,
+.SrFm,
+.trblgFrm {
+    width:96% !important;
+}
+.input-feilds {
+    display: flex;
+}
+.input-text {
+    margin-right: 20px;
+    margin-top: 12px;
+    font-size: 18px;
+    width: 180px;
+}
+.input-text-bl-frm {
+    width:120px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.Srinput {
+    width:100px;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-left: 20%;
+}
+.input-text-trb-frm {
+    width:120px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.btns {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left:38px;
+    padding:10px
+}
+.subtitle {
+    font-size: 18px;
+    border: 3px solid #012030;
+    border-radius: 5px;
+    margin-top: 4px;
+    background-color: #DAFDBA;
+    font-weight: 600;
+}
+.subtitle p {
+    margin: 8px;
+}
+
+.split-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-tr {
+  padding: 1px;
+  background-color: #1d3557;
+  border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+table, th, td {
+  border: 2px solid #012E40;
+  padding: 6px;
+}
+
+.text-wd-hev {
+    font-size:16px;
+    width:250px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
